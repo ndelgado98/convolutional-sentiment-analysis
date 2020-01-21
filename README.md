@@ -1,1 +1,1 @@
-# convolutional-sentiment-analysis
+# 1d Convolutiona Neural Network
