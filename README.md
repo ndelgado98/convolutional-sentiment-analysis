@@ -1,4 +1,5 @@
 # Text Classification of Amazon Food Reviews
+![](/images/git_splash.jpg)
 
 #### --Project Status: In progress
 
@@ -38,6 +39,7 @@ The final model has 66% predictive accuracy across five classes on unseen data. 
 
 ## The App
 Accompanying this project is a command app built off of the saved components of this project that takes any text review and score that a user inputs and tell them their predicted score. The app records the text, their score and the predicted score in a CSV
+![](/images/app_example.jpg)
 
 ## Usage
 Please feel free to clone or fork this repo if you fancy and get in touch if you are at all interested in this project.
