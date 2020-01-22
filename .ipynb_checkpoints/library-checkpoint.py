@@ -22,6 +22,7 @@ Here we want to construct a complete nlp preprocessing pipeline so that we can t
 sw = stopwords.words('english')
 sw.remove('not')
 sw.remove('no')
+sw.remove('but')
 
 
 def remove_stopwords(doc: list or str, join: bool = False) -> list or str:
