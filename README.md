@@ -33,6 +33,9 @@ This project is based off of a dataset used for a [Stanford paper](https://arxiv
 |[conv_embedding_model_lrg.h5](/conv_embedding_model_lrg.h5)| The saved model for use in predictive capacity such as in the app accompanying this project (link TBC)|
 |[tk_20k_vocab_200_words.pkl](/tk_20k_vocab_200_words.pkl)| A pickle of the fitted tokenizer used in the main notebook, which can be reused to tranform new documents with the same parameters. |
 
+## Results
+The final model has 66% predictive accuracy across five classes on unseen data. The times it gets it wrong it will almost always predict and adjacent class.
+
 ## The App
 Accompanying this project is a command app built off of the saved components of this project that takes any text review and score that a user inputs and tell them their predicted score. The app records the text, their score and the predicted score in a CSV
 
